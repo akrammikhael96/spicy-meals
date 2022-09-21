@@ -24,7 +24,7 @@ const Header = (props) => {
         return () => {
             clearTimeout(timer);
         }
-    }, [cartCtx.totalAmount])
+    }, [cartCtx.totalAmount, cartCtx.items.length])
 
 
     return (
