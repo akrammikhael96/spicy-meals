@@ -1,0 +1,43 @@
+.amountContainer {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  width: 70%;
+  align-items: center;
+}
+
+.amountContainer input {
+  width: 30%;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.amountContainer Label {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.addToCartComponent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 100%;
+  align-items: flex-end;
+}
+
+.addToCartComponent button {
+  width: 70%;
+  background-color: rgb(78, 77, 77);
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  padding: 0.3rem;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.addToCartComponent button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #8a2b06;
+}

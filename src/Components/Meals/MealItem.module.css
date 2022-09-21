@@ -1,0 +1,32 @@
+.mealName {
+  color: #8a2b06;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+}
+
+.mealDesc {
+  color: black;
+  font-size: 0.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.mealPrice {
+  color: black;
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0;
+}
+.menuItemContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 2rem;
+  margin: 0.1rem;
+  width: 100%;
+}
+
+.zebra {
+  background-color: rgb(239, 239, 239);
+}

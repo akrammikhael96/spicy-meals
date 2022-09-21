@@ -1,0 +1,39 @@
+.summaryContainer {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  width: 50%;
+  background-color: rgb(78, 77, 77);
+  padding: 1rem;
+  opacity: 90%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  animation-name: moveIn;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes moveIn {
+  from {
+    top: 12%;
+  }
+  to {
+    top: 15%;
+  }
+}
+
+.title {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.text {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: white;
+  font-size: 0.6rem;
+  text-align: center;
+}

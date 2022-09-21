@@ -1,0 +1,88 @@
+.appBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: #8a2b06;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  opacity: 90%;
+}
+
+.foodPic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* height: 100%; */
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 30%;
+}
+
+.cartCounter {
+  background-color: #8a2b06;
+  padding: 0.5rem;
+  /* background-color: yellow; */
+  color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 0.8rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.spicyLogo {
+  width: 2rem;
+}
+
+.spicyMealsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  justify-items: center;
+  height: 2rem;
+  background-color: white;
+  color: #8a2b06;
+  border-radius: 2rem;
+  padding: 1rem;
+  outline: none;
+  border: none;
+}
+
+.pump {
+  animation-name: enlarge;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes enlarge {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

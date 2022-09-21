@@ -1,0 +1,31 @@
+.availableMealsContainer {
+  position: absolute;
+  background-color: white;
+  width: 50%;
+  left: 25%;
+  top: 40%;
+  opacity: 90%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem;
+  list-style: none;
+  gap: 0.5rem;
+
+  animation-name: moveIn;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes moveIn {
+  from {
+    top: 43%;
+  }
+  to {
+    top: 40%;
+  }
+}
