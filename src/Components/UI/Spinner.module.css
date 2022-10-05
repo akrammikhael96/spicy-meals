@@ -1,0 +1,24 @@
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loadingSpinner {
+  width: 0.1vw;
+  height: 0.1vw;
+  border: 0.5vw solid #f3f3f3;
+  border-top: 0.5vw solid #8a2b06;
+  border-radius: 50%;
+  padding: 1vw;
+  animation: spinner 1.5s linear infinite;
+}
+
+.spinnerContainer {
+  display: flex;
+  padding: 3vw;
+  justify-content: center;
+  align-items: center;
+}
